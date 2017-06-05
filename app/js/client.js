@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UserList from 'Components/UserList';
+import SetList from './Components/SetList';
 
 ReactDOM.render(
-    <UserList/>,
+    <SetList/>,
     document.getElementById('container')
 );
 

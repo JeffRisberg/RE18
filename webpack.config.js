@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-    javascript: "./app/script.js"
+    javascript: "./app/js/client.js"
   },
   output: {
     path: __dirname + "/dist",
