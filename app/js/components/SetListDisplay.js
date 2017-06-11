@@ -1,7 +1,7 @@
 import React from 'react';
 import SetListItems from './SetListItems';
 
-class SetList extends React.Component {
+class SetListDisplay extends React.Component {
     constructor() {
         super();
 
@@ -24,4 +24,4 @@ class SetList extends React.Component {
     }
 }
 
-export default SetList;
+export default SetListDisplay;

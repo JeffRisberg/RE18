@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SetList from './Components/SetList';
+import SetList from './pages/SetList';
 
 ReactDOM.render(
     <SetList/>,
