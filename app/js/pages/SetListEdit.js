@@ -1,11 +1,12 @@
 import React from 'react'
-import SetListDisplay from '../components/SetListDisplay';
 
-class SetList extends React.Component {
+class SetListEdit extends React.Component {
 
     render() {
         return (
-            <SetListDisplay/>
+            <div>
+                To be defined
+            </div>
         )
     }
 }

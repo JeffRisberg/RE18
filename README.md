@@ -12,10 +12,5 @@ Start the server
 npm install
 node server
 ```
-or
-```sh
-npm install
-npm start
-```
 
-And visit <http://localhost:3000/>. Try opening multiple tabs!
+And visit <http://localhost:3000/>.
