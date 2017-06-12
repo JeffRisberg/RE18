@@ -1,15 +1,15 @@
 import React from 'react';
 
-class SetListEdit extends React.Component {
+class SetListList extends React.Component {
 
     render() {
         return (
             <div>
-                <SetListSlotEdit/>
+                <SetListSlotDisplay/>
                 <SetListGrid/>
             </div>
         )
     }
 }
 
-export default SetListEdit;
+export default SetListPlay;
