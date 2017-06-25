@@ -1,6 +1,10 @@
 import React from 'react';
 
-import NavLink from './components/NavLink'
+import NavLink from './components/NavLink';
+import Home from './pages/Home';
+import SetListPlay from './pages/SetListPlay';
+import SetListEdit from './pages/SetListEdit';
+import Combi from './pages/Combi';
 
 class AppRoot extends React.Component {
 
@@ -15,9 +19,9 @@ class AppRoot extends React.Component {
                             <div className="navbar-collapse collapse">
                                 <ul className="nav navbar-nav">
                                     <li><NavLink to="/home">Home</NavLink></li>
-                                    <li><NavLink to="/setList">SetList</NavLink></li>
+                                    <li><NavLink to="/setListPlay">SetList Play</NavLink></li>
+                                    <li><NavLink to="/setListEdit">SetList Edit</NavLink></li>
                                     <li><NavLink to="/combi">Combi</NavLink></li>
-                                    <li><NavLink to="/program">Program</NavLink></li>
                                 </ul>
                             </div>
                         </div>

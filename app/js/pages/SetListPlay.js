@@ -1,6 +1,9 @@
 import React from 'react';
 
-class SetListList extends React.Component {
+import SetListGrid from '../components/SetListGrid';
+import SetListSlotDisplay from '../components/SetListSlotDisplay';
+
+class SetListPlay extends React.Component {
 
     render() {
         return (
