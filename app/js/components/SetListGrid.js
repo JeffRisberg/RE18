@@ -2,6 +2,7 @@ import React from 'react';
 import SetListGridElement from './SetListGridElement';
 
 class SetListGrid extends React.Component {
+
     constructor() {
         super();
 

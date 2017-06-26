@@ -1,10 +1,6 @@
 import React from 'react';
 
 import NavLink from './components/NavLink';
-import Home from './pages/Home';
-import SetListPlay from './pages/SetListPlay';
-import SetListEdit from './pages/SetListEdit';
-import Combi from './pages/Combi';
 
 class AppRoot extends React.Component {
 
