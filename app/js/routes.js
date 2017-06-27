@@ -1,10 +1,10 @@
 import React from "react";
 import {Route, IndexRoute} from "react-router";
 import AppRoot from "./AppRoot";
+import Combi from "./pages/Combi";
 import Home from "./pages/Home";
 import SetListPlay from "./pages/SetListPlay";
 import SetListEdit from "./pages/SetListEdit";
-import Combi from "./pages/Combi";
 
 export default (
     <Route path="/" component={AppRoot}>

@@ -1,6 +1,8 @@
 import React from 'react';
 import SetListGridElement from './SetListGridElement';
 
+import './SetList.scss';
+
 class SetListGrid extends React.Component {
 
     constructor() {
