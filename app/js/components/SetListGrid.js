@@ -16,8 +16,7 @@ class SetListGrid extends React.Component {
     render() {
 
         const setListGridElements = this.setListSlots.map(slot => {
-            //return new SetListGridElement(slot);
-            return (<div>X</div>)
+            return new SetListGridElement(slot).render();
         })
 
         console.log(setListGridElements);
