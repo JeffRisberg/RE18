@@ -6,7 +6,7 @@ class SetListGridElement extends React.Component {
     render() {
         return (
             <div>
-                Slot
+                {this.props.slotName}
             </div>
         )
     }

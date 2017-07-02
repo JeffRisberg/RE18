@@ -8,18 +8,15 @@ class SetListGrid extends React.Component {
     constructor() {
         super();
 
-        //this.getUsersFromLocalStorage();
-
         this.setListSlots = ['Alpha', 'Beta', 'Gamma'];
     }
 
     render() {
 
         const setListGridElements = this.setListSlots.map(slot => {
-            return new SetListGridElement(slot).render();
+            return new SetListGridElement({slotName: slot}).render();
         })
 
-        console.log(setListGridElements);
         return (
             <div>
                 {setListGridElements}
