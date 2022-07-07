@@ -47,7 +47,7 @@
     "bootstrap": "^3.4.1",
     "debug": "^3.2.6",
     "isomorphic-fetch": "^2.2.1",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "nconf": "^0.8.5",
     "normalizr": "^3.6.1",
     "react": "^15.7.0",
